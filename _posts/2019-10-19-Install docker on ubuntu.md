@@ -43,13 +43,13 @@ $ curl -fsSL https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu/gpg | sudo apt-k
 # $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 ```
 然后，我们需要向 source.list 中添加 Docker 软件源
+
 ```
 $ sudo add-apt-repository \
     "deb [arch=amd64] https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu \
     $(lsb_release -cs) \
     stable"
-
-
+    
 # 官方源
 # $ sudo add-apt-repository \
 #    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
