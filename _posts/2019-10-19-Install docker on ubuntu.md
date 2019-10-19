@@ -39,8 +39,8 @@ $ sudo apt-get install \
 $ curl -fsSL https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu/gpg | sudo apt-key add -
 
 
-# 官方源
-# $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+// 官方源
+// $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 ```
 然后，我们需要向 source.list 中添加 Docker 软件源
 
@@ -50,11 +50,11 @@ $ sudo add-apt-repository \
     $(lsb_release -cs) \
     stable"
     
-# 官方源
-# $ sudo add-apt-repository \
-#    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-#    $(lsb_release -cs) \
-#    stable"
+//# 官方源
+//# $ sudo add-apt-repository \
+//#    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+//#    $(lsb_release -cs) \
+//#    stable"
 ```
 以上命令会添加稳定版本的 Docker CE APT 镜像源，如果需要测试或每日构建版本的 Docker CE 请将 stable 改为 test 或者 nightly。
 
