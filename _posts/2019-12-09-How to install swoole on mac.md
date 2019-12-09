@@ -75,7 +75,7 @@ make clean && make && sudo make install
 
 - PECL
 
-    注意: PECL发布时间晚于Github发布时间
+    Note: PECL release time is later than GitHub release time
 
     The swoole project has been included in the official PHP extension library. In addition to downloading and compiling manually, you can also download and install with one click through the PECL command provided by the official PHP
 
