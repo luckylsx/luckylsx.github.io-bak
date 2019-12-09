@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-I'm a progammer, I write with golang and I will change the world.
+I'm a progammer, I write with php and python and I will change the world.
