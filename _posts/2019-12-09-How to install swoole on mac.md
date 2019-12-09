@@ -82,7 +82,7 @@ make clean && make && sudo make install
 ```
 pecl install swoole
 ```
-- 配置php.ini
+- Configure php.ini
 
     After the compilation and installation are successful, modify php.ini to join
 
