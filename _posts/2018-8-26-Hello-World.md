@@ -3,4 +3,4 @@ layout: post
 title: Hello World
 ---
 
-Study hard and make program!
+Sometimes a single individual can change everything.!
