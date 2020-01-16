@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 一条sql 语句是如何执行的？
+title: The execute procedure of a SQL query？
 category: MYSQL
 ---
 
