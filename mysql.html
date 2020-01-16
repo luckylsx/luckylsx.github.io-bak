@@ -1,0 +1,19 @@
+---
+layout: default
+permalink: /mysql/
+---
+
+<div class="mysqls">
+  {% for mysql in site.posts %}
+    <article class="mysql">
+
+      <h1><a href="{{ site.baseurl }}{{ mysql.url }}">{{ mysql.title }}</a></h1>
+
+      <div class="entry">
+        {{ mysql.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ mysql.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
