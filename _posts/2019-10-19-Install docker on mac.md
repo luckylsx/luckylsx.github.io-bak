@@ -3,7 +3,7 @@ layout: post
 title: How to install docker on Mac
 ---
 - 系统要求
-    - Docker CE 支持以下版本的 Ubuntu 操作系统：
+    - Docker CE 支持以下版本的 Ubuntu 操作系统:
     - Disco 19.04
     - Cosmic 18.10
     - Bionic 18.04 (LTS)
