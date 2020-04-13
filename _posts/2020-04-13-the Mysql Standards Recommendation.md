@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Design Of Mysql Standards Recommendation
+title: MySQL数据库设计规范
 category: MYSQL
 ---
 
